@@ -1,0 +1,118 @@
+[00:00:05,667] [INFO] CmdHandlerFactory.init --> ==== 完成命令与处理器的关联 ====
+[00:00:05,699] [INFO] CmdHandlerFactory.init --> org.tinygame.herostory.msg.GameMsgProtocol$WhoElseIsHereCmd <==> WhoElseIsHereCmdHandler
+[00:00:05,700] [INFO] CmdHandlerFactory.init --> org.tinygame.herostory.msg.GameMsgProtocol$UserAttkCmd <==> UserAttkCmdHandler
+[00:00:05,701] [INFO] CmdHandlerFactory.init --> org.tinygame.herostory.msg.GameMsgProtocol$UserEntryCmd <==> UserEntryCmdHandler
+[00:00:05,702] [INFO] CmdHandlerFactory.init --> org.tinygame.herostory.msg.GameMsgProtocol$UserMoveToCmd <==> UserMovoToCmdHandler
+[00:00:05,702] [INFO] GameMsgRecognizer.init --> ==== 完成消息体与消息编号的关联 ====
+[00:00:07,285] [INFO] ServerMain.main --> 服务器启动成功!
+[00:04:03,410] [INFO] CmdHandlerFactory.init --> ==== 完成命令与处理器的关联 ====
+[00:04:03,440] [INFO] CmdHandlerFactory.init --> org.tinygame.herostory.msg.GameMsgProtocol$WhoElseIsHereCmd <==> WhoElseIsHereCmdHandler
+[00:04:03,441] [INFO] CmdHandlerFactory.init --> org.tinygame.herostory.msg.GameMsgProtocol$UserAttkCmd <==> UserAttkCmdHandler
+[00:04:03,441] [INFO] CmdHandlerFactory.init --> org.tinygame.herostory.msg.GameMsgProtocol$UserEntryCmd <==> UserEntryCmdHandler
+[00:04:03,442] [INFO] CmdHandlerFactory.init --> org.tinygame.herostory.msg.GameMsgProtocol$UserMoveToCmd <==> UserMovoToCmdHandler
+[00:04:03,443] [INFO] GameMsgRecognizer.init --> ==== 完成消息体与消息编号的关联 ====
+[00:04:04,999] [INFO] ServerMain.main --> 服务器启动成功!
+[00:04:56,119] [INFO] CmdHandlerFactory.init --> ==== 完成命令与处理器的关联 ====
+[00:04:56,153] [INFO] CmdHandlerFactory.init --> org.tinygame.herostory.msg.GameMsgProtocol$WhoElseIsHereCmd <==> WhoElseIsHereCmdHandler
+[00:04:56,153] [INFO] CmdHandlerFactory.init --> org.tinygame.herostory.msg.GameMsgProtocol$UserAttkCmd <==> UserAttkCmdHandler
+[00:04:56,154] [INFO] CmdHandlerFactory.init --> org.tinygame.herostory.msg.GameMsgProtocol$UserEntryCmd <==> UserEntryCmdHandler
+[00:04:56,154] [INFO] CmdHandlerFactory.init --> org.tinygame.herostory.msg.GameMsgProtocol$UserMoveToCmd <==> UserMovoToCmdHandler
+[00:04:56,155] [INFO] GameMsgRecognizer.init --> ==== 完成消息体与消息编号的关联 ====
+[00:04:56,178] [INFO] GameMsgRecognizer.init --> 关联 org.tinygame.herostory.msg.GameMsgProtocol$UserDieResult <==> 12
+[00:04:56,180] [INFO] GameMsgRecognizer.init --> 关联 org.tinygame.herostory.msg.GameMsgProtocol$UserSubtractHpResult <==> 11
+[00:04:56,182] [INFO] GameMsgRecognizer.init --> 关联 org.tinygame.herostory.msg.GameMsgProtocol$UserAttkResult <==> 10
+[00:04:56,184] [INFO] GameMsgRecognizer.init --> 关联 org.tinygame.herostory.msg.GameMsgProtocol$UserAttkCmd <==> 9
+[00:04:56,185] [INFO] GameMsgRecognizer.init --> 关联 org.tinygame.herostory.msg.GameMsgProtocol$UserStopResult <==> 8
+[00:04:56,187] [INFO] GameMsgRecognizer.init --> 关联 org.tinygame.herostory.msg.GameMsgProtocol$UserStopCmd <==> 7
+[00:04:56,188] [INFO] GameMsgRecognizer.init --> 关联 org.tinygame.herostory.msg.GameMsgProtocol$UserQuitResult <==> 6
+[00:04:56,190] [INFO] GameMsgRecognizer.init --> 关联 org.tinygame.herostory.msg.GameMsgProtocol$UserMoveToResult <==> 5
+[00:04:56,190] [INFO] GameMsgRecognizer.init --> 关联 org.tinygame.herostory.msg.GameMsgProtocol$UserMoveToCmd <==> 4
+[00:04:56,192] [INFO] GameMsgRecognizer.init --> 关联 org.tinygame.herostory.msg.GameMsgProtocol$WhoElseIsHereResult <==> 3
+[00:04:56,194] [INFO] GameMsgRecognizer.init --> 关联 org.tinygame.herostory.msg.GameMsgProtocol$WhoElseIsHereCmd <==> 2
+[00:04:56,195] [INFO] GameMsgRecognizer.init --> 关联 org.tinygame.herostory.msg.GameMsgProtocol$UserEntryResult <==> 1
+[00:04:56,196] [INFO] GameMsgRecognizer.init --> 关联 org.tinygame.herostory.msg.GameMsgProtocol$UserEntryCmd <==> 0
+[00:04:57,575] [INFO] ServerMain.main --> 服务器启动成功!
+[00:05:02,859] [INFO] CmdHandlerFactory.init --> ==== 完成命令与处理器的关联 ====
+[00:05:02,888] [INFO] CmdHandlerFactory.init --> org.tinygame.herostory.msg.GameMsgProtocol$WhoElseIsHereCmd <==> WhoElseIsHereCmdHandler
+[00:05:02,889] [INFO] CmdHandlerFactory.init --> org.tinygame.herostory.msg.GameMsgProtocol$UserAttkCmd <==> UserAttkCmdHandler
+[00:05:02,890] [INFO] CmdHandlerFactory.init --> org.tinygame.herostory.msg.GameMsgProtocol$UserEntryCmd <==> UserEntryCmdHandler
+[00:05:02,890] [INFO] CmdHandlerFactory.init --> org.tinygame.herostory.msg.GameMsgProtocol$UserMoveToCmd <==> UserMovoToCmdHandler
+[00:05:02,891] [INFO] GameMsgRecognizer.init --> ==== 完成消息体与消息编号的关联 ====
+[00:05:02,913] [INFO] GameMsgRecognizer.init --> 关联 org.tinygame.herostory.msg.GameMsgProtocol$UserDieResult <==> 12
+[00:05:02,914] [INFO] GameMsgRecognizer.init --> 关联 org.tinygame.herostory.msg.GameMsgProtocol$UserSubtractHpResult <==> 11
+[00:05:02,915] [INFO] GameMsgRecognizer.init --> 关联 org.tinygame.herostory.msg.GameMsgProtocol$UserAttkResult <==> 10
+[00:05:02,917] [INFO] GameMsgRecognizer.init --> 关联 org.tinygame.herostory.msg.GameMsgProtocol$UserAttkCmd <==> 9
+[00:05:02,918] [INFO] GameMsgRecognizer.init --> 关联 org.tinygame.herostory.msg.GameMsgProtocol$UserStopResult <==> 8
+[00:05:02,919] [INFO] GameMsgRecognizer.init --> 关联 org.tinygame.herostory.msg.GameMsgProtocol$UserStopCmd <==> 7
+[00:05:02,920] [INFO] GameMsgRecognizer.init --> 关联 org.tinygame.herostory.msg.GameMsgProtocol$UserQuitResult <==> 6
+[00:05:02,921] [INFO] GameMsgRecognizer.init --> 关联 org.tinygame.herostory.msg.GameMsgProtocol$UserMoveToResult <==> 5
+[00:05:02,922] [INFO] GameMsgRecognizer.init --> 关联 org.tinygame.herostory.msg.GameMsgProtocol$UserMoveToCmd <==> 4
+[00:05:02,924] [INFO] GameMsgRecognizer.init --> 关联 org.tinygame.herostory.msg.GameMsgProtocol$WhoElseIsHereResult <==> 3
+[00:05:02,926] [INFO] GameMsgRecognizer.init --> 关联 org.tinygame.herostory.msg.GameMsgProtocol$WhoElseIsHereCmd <==> 2
+[00:05:02,927] [INFO] GameMsgRecognizer.init --> 关联 org.tinygame.herostory.msg.GameMsgProtocol$UserEntryResult <==> 1
+[00:05:02,928] [INFO] GameMsgRecognizer.init --> 关联 org.tinygame.herostory.msg.GameMsgProtocol$UserEntryCmd <==> 0
+[00:05:04,451] [INFO] ServerMain.main --> 服务器启动成功!
+[00:05:09,159] [INFO] GameMsgHandler.channelRead0 --> 收到客户端消息，msg = UserEntryCmd
+[00:05:09,170] [INFO] GameMsgHandler.channelRead0 --> 收到客户端消息，msg = WhoElseIsHereCmd
+[00:05:13,832] [INFO] GameMsgHandler.channelRead0 --> 收到客户端消息，msg = UserEntryCmd
+[00:05:13,833] [INFO] GameMsgHandler.channelRead0 --> 收到客户端消息，msg = WhoElseIsHereCmd
+[00:05:14,659] [INFO] GameMsgHandler.channelRead0 --> 收到客户端消息，msg = UserMoveToCmd
+[00:05:14,809] [INFO] GameMsgHandler.channelRead0 --> 收到客户端消息，msg = UserMoveToCmd
+[00:05:15,093] [INFO] GameMsgHandler.channelRead0 --> 收到客户端消息，msg = UserMoveToCmd
+[00:05:15,589] [INFO] GameMsgHandler.channelRead0 --> 收到客户端消息，msg = UserMoveToCmd
+[00:05:15,741] [INFO] GameMsgHandler.channelRead0 --> 收到客户端消息，msg = UserMoveToCmd
+[00:05:15,894] [INFO] GameMsgHandler.channelRead0 --> 收到客户端消息，msg = UserMoveToCmd
+[00:05:16,054] [INFO] GameMsgHandler.channelRead0 --> 收到客户端消息，msg = UserMoveToCmd
+[00:05:16,243] [INFO] GameMsgHandler.channelRead0 --> 收到客户端消息，msg = UserMoveToCmd
+[00:05:16,509] [INFO] GameMsgHandler.channelRead0 --> 收到客户端消息，msg = UserMoveToCmd
+[00:05:17,152] [INFO] GameMsgHandler.channelRead0 --> 收到客户端消息，msg = UserMoveToCmd
+[00:05:17,301] [INFO] GameMsgHandler.channelRead0 --> 收到客户端消息，msg = UserMoveToCmd
+[00:05:17,433] [INFO] GameMsgHandler.channelRead0 --> 收到客户端消息，msg = UserMoveToCmd
+[00:05:17,729] [INFO] GameMsgHandler.channelRead0 --> 收到客户端消息，msg = UserAttkCmd
+[00:05:17,729] [INFO] UserAttkCmdHandler.handle --> UserAttk
+[00:05:17,876] [INFO] GameMsgHandler.channelRead0 --> 收到客户端消息，msg = UserAttkCmd
+[00:05:17,877] [INFO] UserAttkCmdHandler.handle --> UserAttk
+[00:05:18,003] [INFO] GameMsgHandler.channelRead0 --> 收到客户端消息，msg = UserAttkCmd
+[00:05:18,004] [INFO] UserAttkCmdHandler.handle --> UserAttk
+[00:05:18,153] [INFO] GameMsgHandler.channelRead0 --> 收到客户端消息，msg = UserAttkCmd
+[00:05:18,153] [INFO] UserAttkCmdHandler.handle --> UserAttk
+[00:05:18,291] [INFO] GameMsgHandler.channelRead0 --> 收到客户端消息，msg = UserAttkCmd
+[00:05:18,292] [INFO] UserAttkCmdHandler.handle --> UserAttk
+[00:05:18,429] [INFO] GameMsgHandler.channelRead0 --> 收到客户端消息，msg = UserAttkCmd
+[00:05:18,429] [INFO] UserAttkCmdHandler.handle --> UserAttk
+[00:05:18,580] [INFO] GameMsgHandler.channelRead0 --> 收到客户端消息，msg = UserAttkCmd
+[00:05:18,581] [INFO] UserAttkCmdHandler.handle --> UserAttk
+[00:05:18,739] [INFO] GameMsgHandler.channelRead0 --> 收到客户端消息，msg = UserAttkCmd
+[00:05:18,739] [INFO] UserAttkCmdHandler.handle --> UserAttk
+[00:05:18,885] [INFO] GameMsgHandler.channelRead0 --> 收到客户端消息，msg = UserAttkCmd
+[00:05:18,885] [INFO] UserAttkCmdHandler.handle --> UserAttk
+[00:05:19,010] [INFO] GameMsgHandler.channelRead0 --> 收到客户端消息，msg = UserAttkCmd
+[00:05:19,010] [INFO] UserAttkCmdHandler.handle --> UserAttk
+[00:05:19,158] [INFO] GameMsgHandler.channelRead0 --> 收到客户端消息，msg = UserAttkCmd
+[00:05:19,159] [INFO] UserAttkCmdHandler.handle --> UserAttk
+[00:05:19,518] [INFO] GameMsgHandler.channelRead0 --> 收到客户端消息，msg = UserMoveToCmd
+[00:05:20,595] [INFO] GameMsgHandler.channelRead0 --> 收到客户端消息，msg = UserMoveToCmd
+[00:05:20,758] [INFO] GameMsgHandler.channelRead0 --> 收到客户端消息，msg = UserMoveToCmd
+[00:05:20,910] [INFO] GameMsgHandler.channelRead0 --> 收到客户端消息，msg = UserMoveToCmd
+[00:05:21,070] [INFO] GameMsgHandler.channelRead0 --> 收到客户端消息，msg = UserMoveToCmd
+[00:05:21,239] [INFO] GameMsgHandler.channelRead0 --> 收到客户端消息，msg = UserMoveToCmd
+[00:05:21,505] [INFO] GameMsgHandler.channelRead0 --> 收到客户端消息，msg = UserMoveToCmd
+[00:05:21,666] [INFO] GameMsgHandler.channelRead0 --> 收到客户端消息，msg = UserMoveToCmd
+[00:05:21,996] [INFO] GameMsgHandler.channelRead0 --> 收到客户端消息，msg = UserMoveToCmd
+[00:05:22,135] [INFO] GameMsgHandler.channelRead0 --> 收到客户端消息，msg = UserMoveToCmd
+[00:05:22,385] [INFO] GameMsgHandler.channelRead0 --> 收到客户端消息，msg = UserMoveToCmd
+[00:05:22,901] [INFO] GameMsgHandler.channelRead0 --> 收到客户端消息，msg = UserMoveToCmd
+[00:05:23,087] [INFO] GameMsgHandler.channelRead0 --> 收到客户端消息，msg = UserMoveToCmd
+[00:05:23,231] [INFO] GameMsgHandler.channelRead0 --> 收到客户端消息，msg = UserMoveToCmd
+[00:05:23,529] [INFO] GameMsgHandler.channelRead0 --> 收到客户端消息，msg = UserMoveToCmd
+[00:05:23,682] [INFO] GameMsgHandler.channelRead0 --> 收到客户端消息，msg = UserMoveToCmd
+[00:05:23,904] [INFO] GameMsgHandler.channelRead0 --> 收到客户端消息，msg = UserMoveToCmd
+[00:05:24,437] [INFO] GameMsgHandler.channelRead0 --> 收到客户端消息，msg = UserMoveToCmd
+[00:05:24,583] [INFO] GameMsgHandler.channelRead0 --> 收到客户端消息，msg = UserMoveToCmd
+[00:05:24,697] [INFO] GameMsgHandler.channelRead0 --> 收到客户端消息，msg = UserMoveToCmd
+[00:05:24,867] [INFO] GameMsgHandler.channelRead0 --> 收到客户端消息，msg = UserMoveToCmd
+[00:05:25,106] [INFO] GameMsgHandler.channelRead0 --> 收到客户端消息，msg = UserMoveToCmd
+[00:05:25,232] [INFO] GameMsgHandler.channelRead0 --> 收到客户端消息，msg = UserMoveToCmd
+[00:05:25,665] [INFO] GameMsgHandler.channelRead0 --> 收到客户端消息，msg = UserMoveToCmd
+[00:05:25,822] [INFO] GameMsgHandler.channelRead0 --> 收到客户端消息，msg = UserMoveToCmd
+[00:05:25,963] [INFO] GameMsgHandler.channelRead0 --> 收到客户端消息，msg = UserMoveToCmd

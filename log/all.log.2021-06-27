@@ -1,0 +1,16 @@
+[19:03:01,171] [INFO] ServerMain.main --> 服务器启动成功!
+[19:03:12,468] [INFO] GameMsgHandler.channelRead0 --> 收到客户端消息，msg = userId: 1
+heroAvatar: "Hero_Hammer"
+
+[19:03:17,880] [INFO] GameMsgHandler.channelRead0 --> 收到客户端消息，msg = userId: 2
+heroAvatar: "Hero_Shaman"
+
+[19:04:50,332] [INFO] ServerMain.main --> 服务器启动成功!
+[19:06:10,077] [INFO] GameMsgHandler.channelRead0 --> 收到客户端消息，msg = userId: 1
+heroAvatar: "Hero_Hammer"
+
+[19:06:10,093] [INFO] GameMsgHandler.channelRead0 --> 收到客户端消息，msg = 
+[19:06:12,284] [INFO] GameMsgHandler.channelRead0 --> 收到客户端消息，msg = userId: 2
+heroAvatar: "Hero_Shaman"
+
+[19:06:12,285] [INFO] GameMsgHandler.channelRead0 --> 收到客户端消息，msg = 

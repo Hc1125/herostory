@@ -1,0 +1,39 @@
+[18:05:35,204] [INFO] ServerMain.main --> 服务器启动成功!
+[18:05:56,233] [INFO] GameMsgHandler.channelRead0 --> 收到客户端消息，msg = userId: 1
+heroAvatar: "Hero_Hammer"
+
+[18:13:53,394] [INFO] GameMsgHandler.channelRead0 --> 收到客户端消息，msg = userId: 1
+heroAvatar: "Hero_Hammer"
+
+[18:13:58,677] [INFO] GameMsgHandler.channelRead0 --> 收到客户端消息，msg = userId: 2
+heroAvatar: "Hero_Shaman"
+
+[18:14:08,889] [INFO] GameMsgHandler.channelRead0 --> 收到客户端消息，msg = userId: 3
+heroAvatar: "Hero_Skeleton"
+
+[18:32:57,287] [INFO] ServerMain.main --> 服务器启动成功!
+[18:33:19,174] [INFO] GameMsgHandler.channelRead0 --> 收到客户端消息，msg = userId: 1
+heroAvatar: "Hero_Hammer"
+
+[18:33:31,855] [INFO] GameMsgHandler.channelRead0 --> 收到客户端消息，msg = userId: 1
+heroAvatar: "Hero_Hammer"
+
+[18:37:34,954] [INFO] ServerMain.main --> 服务器启动成功!
+[18:37:45,076] [INFO] GameMsgHandler.channelRead0 --> 收到客户端消息，msg = userId: 1
+heroAvatar: "Hero_Hammer"
+
+[18:37:53,776] [INFO] GameMsgHandler.channelRead0 --> 收到客户端消息，msg = userId: 2
+heroAvatar: "Hero_Shaman"
+
+[18:38:21,572] [INFO] GameMsgHandler.channelRead0 --> 收到客户端消息，msg = userId: 2
+heroAvatar: "Hero_Shaman"
+
+[18:38:31,754] [INFO] GameMsgHandler.channelRead0 --> 收到客户端消息，msg = userId: 3
+heroAvatar: "Hero_Skeleton"
+
+[18:46:25,618] [INFO] GameMsgHandler.channelRead0 --> 收到客户端消息，msg = userId: 1
+heroAvatar: "Hero_Hammer"
+
+[18:46:33,299] [INFO] GameMsgHandler.channelRead0 --> 收到客户端消息，msg = userId: 2
+heroAvatar: "Hero_Shaman"
+

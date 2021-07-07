@@ -1,0 +1,237 @@
+[00:06:27,062] [INFO] ServerMain.main --> 服务器启动成功!
+[00:06:38,682] [INFO] GameMsgHandler.channelRead0 --> 收到客户端消息，msg = userId: 1
+heroAvatar: "Hero_Hammer"
+
+[00:06:38,701] [INFO] GameMsgHandler.channelRead0 --> 收到客户端消息，msg = 
+[00:06:42,266] [INFO] GameMsgHandler.channelRead0 --> 收到客户端消息，msg = userId: 2
+heroAvatar: "Hero_Shaman"
+
+[00:06:42,267] [INFO] GameMsgHandler.channelRead0 --> 收到客户端消息，msg = 
+[00:06:43,633] [INFO] GameMsgHandler.channelRead0 --> 收到客户端消息，msg = moveToPosX: -329.90396
+moveToPosY: 73.42583
+
+[00:06:43,637] [ERROR] GameMsgEncoder.write --> java.lang.Integer cannot be cast to com.google.protobuf.GeneratedMessageV3
+java.lang.ClassCastException: java.lang.Integer cannot be cast to com.google.protobuf.GeneratedMessageV3
+	at org.tinygame.herostory.GameMsgEncoder.write(GameMsgEncoder.java:49)
+	at io.netty.channel.AbstractChannelHandlerContext.invokeWrite0(AbstractChannelHandlerContext.java:716)
+	at io.netty.channel.AbstractChannelHandlerContext.invokeWrite(AbstractChannelHandlerContext.java:708)
+	at io.netty.channel.AbstractChannelHandlerContext.access$1700(AbstractChannelHandlerContext.java:56)
+	at io.netty.channel.AbstractChannelHandlerContext$AbstractWriteTask.write(AbstractChannelHandlerContext.java:1102)
+	at io.netty.channel.AbstractChannelHandlerContext$WriteAndFlushTask.write(AbstractChannelHandlerContext.java:1149)
+	at io.netty.channel.AbstractChannelHandlerContext$AbstractWriteTask.run(AbstractChannelHandlerContext.java:1073)
+	at io.netty.util.concurrent.AbstractEventExecutor.safeExecute(AbstractEventExecutor.java:163)
+	at io.netty.util.concurrent.SingleThreadEventExecutor.runAllTasks(SingleThreadEventExecutor.java:510)
+	at io.netty.channel.nio.NioEventLoop.run(NioEventLoop.java:518)
+	at io.netty.util.concurrent.SingleThreadEventExecutor$6.run(SingleThreadEventExecutor.java:1050)
+	at io.netty.util.internal.ThreadExecutorMap$2.run(ThreadExecutorMap.java:74)
+	at io.netty.util.concurrent.FastThreadLocalRunnable.run(FastThreadLocalRunnable.java:30)
+	at java.lang.Thread.run(Thread.java:748)
+[00:06:43,637] [ERROR] GameMsgEncoder.write --> java.lang.Integer cannot be cast to com.google.protobuf.GeneratedMessageV3
+java.lang.ClassCastException: java.lang.Integer cannot be cast to com.google.protobuf.GeneratedMessageV3
+	at org.tinygame.herostory.GameMsgEncoder.write(GameMsgEncoder.java:49)
+	at io.netty.channel.AbstractChannelHandlerContext.invokeWrite0(AbstractChannelHandlerContext.java:716)
+	at io.netty.channel.AbstractChannelHandlerContext.invokeWriteAndFlush(AbstractChannelHandlerContext.java:763)
+	at io.netty.channel.AbstractChannelHandlerContext.write(AbstractChannelHandlerContext.java:789)
+	at io.netty.channel.AbstractChannelHandlerContext.writeAndFlush(AbstractChannelHandlerContext.java:757)
+	at io.netty.channel.AbstractChannelHandlerContext.writeAndFlush(AbstractChannelHandlerContext.java:812)
+	at io.netty.channel.DefaultChannelPipeline.writeAndFlush(DefaultChannelPipeline.java:1037)
+	at io.netty.channel.AbstractChannel.writeAndFlush(AbstractChannel.java:293)
+	at io.netty.channel.group.DefaultChannelGroup.writeAndFlush(DefaultChannelGroup.java:419)
+	at io.netty.channel.group.DefaultChannelGroup.writeAndFlush(DefaultChannelGroup.java:398)
+	at io.netty.channel.group.DefaultChannelGroup.writeAndFlush(DefaultChannelGroup.java:299)
+	at org.tinygame.herostory.GameMsgHandler.channelRead0(GameMsgHandler.java:106)
+	at io.netty.channel.SimpleChannelInboundHandler.channelRead(SimpleChannelInboundHandler.java:99)
+	at io.netty.channel.AbstractChannelHandlerContext.invokeChannelRead(AbstractChannelHandlerContext.java:374)
+	at io.netty.channel.AbstractChannelHandlerContext.invokeChannelRead(AbstractChannelHandlerContext.java:360)
+	at io.netty.channel.AbstractChannelHandlerContext.fireChannelRead(AbstractChannelHandlerContext.java:352)
+	at org.tinygame.herostory.GameMsgDecoder.channelRead(GameMsgDecoder.java:55)
+	at io.netty.channel.AbstractChannelHandlerContext.invokeChannelRead(AbstractChannelHandlerContext.java:374)
+	at io.netty.channel.AbstractChannelHandlerContext.invokeChannelRead(AbstractChannelHandlerContext.java:360)
+	at io.netty.channel.AbstractChannelHandlerContext.fireChannelRead(AbstractChannelHandlerContext.java:352)
+	at io.netty.handler.codec.MessageToMessageDecoder.channelRead(MessageToMessageDecoder.java:102)
+	at io.netty.channel.AbstractChannelHandlerContext.invokeChannelRead(AbstractChannelHandlerContext.java:374)
+	at io.netty.channel.AbstractChannelHandlerContext.invokeChannelRead(AbstractChannelHandlerContext.java:360)
+	at io.netty.channel.AbstractChannelHandlerContext.fireChannelRead(AbstractChannelHandlerContext.java:352)
+	at io.netty.channel.ChannelInboundHandlerAdapter.channelRead(ChannelInboundHandlerAdapter.java:93)
+	at io.netty.handler.codec.http.websocketx.Utf8FrameValidator.channelRead(Utf8FrameValidator.java:77)
+	at io.netty.channel.AbstractChannelHandlerContext.invokeChannelRead(AbstractChannelHandlerContext.java:374)
+	at io.netty.channel.AbstractChannelHandlerContext.invokeChannelRead(AbstractChannelHandlerContext.java:360)
+	at io.netty.channel.AbstractChannelHandlerContext.fireChannelRead(AbstractChannelHandlerContext.java:352)
+	at io.netty.handler.codec.http.websocketx.WebSocketServerProtocolHandler$1.channelRead(WebSocketServerProtocolHandler.java:272)
+	at io.netty.channel.AbstractChannelHandlerContext.invokeChannelRead(AbstractChannelHandlerContext.java:374)
+	at io.netty.channel.AbstractChannelHandlerContext.invokeChannelRead(AbstractChannelHandlerContext.java:360)
+	at io.netty.channel.AbstractChannelHandlerContext.fireChannelRead(AbstractChannelHandlerContext.java:352)
+	at io.netty.handler.codec.ByteToMessageDecoder.fireChannelRead(ByteToMessageDecoder.java:326)
+	at io.netty.handler.codec.ByteToMessageDecoder.channelRead(ByteToMessageDecoder.java:300)
+	at io.netty.channel.AbstractChannelHandlerContext.invokeChannelRead(AbstractChannelHandlerContext.java:374)
+	at io.netty.channel.AbstractChannelHandlerContext.invokeChannelRead(AbstractChannelHandlerContext.java:360)
+	at io.netty.channel.AbstractChannelHandlerContext.fireChannelRead(AbstractChannelHandlerContext.java:352)
+	at io.netty.channel.DefaultChannelPipeline$HeadContext.channelRead(DefaultChannelPipeline.java:1422)
+	at io.netty.channel.AbstractChannelHandlerContext.invokeChannelRead(AbstractChannelHandlerContext.java:374)
+	at io.netty.channel.AbstractChannelHandlerContext.invokeChannelRead(AbstractChannelHandlerContext.java:360)
+	at io.netty.channel.DefaultChannelPipeline.fireChannelRead(DefaultChannelPipeline.java:931)
+	at io.netty.channel.nio.AbstractNioByteChannel$NioByteUnsafe.read(AbstractNioByteChannel.java:163)
+	at io.netty.channel.nio.NioEventLoop.processSelectedKey(NioEventLoop.java:700)
+	at io.netty.channel.nio.NioEventLoop.processSelectedKeysOptimized(NioEventLoop.java:635)
+	at io.netty.channel.nio.NioEventLoop.processSelectedKeys(NioEventLoop.java:552)
+	at io.netty.channel.nio.NioEventLoop.run(NioEventLoop.java:514)
+	at io.netty.util.concurrent.SingleThreadEventExecutor$6.run(SingleThreadEventExecutor.java:1050)
+	at io.netty.util.internal.ThreadExecutorMap$2.run(ThreadExecutorMap.java:74)
+	at io.netty.util.concurrent.FastThreadLocalRunnable.run(FastThreadLocalRunnable.java:30)
+	at java.lang.Thread.run(Thread.java:748)
+[00:06:45,935] [INFO] GameMsgHandler.channelRead0 --> 收到客户端消息，msg = moveToPosX: -200.8111
+moveToPosY: 32.44397
+
+[00:06:45,935] [ERROR] GameMsgEncoder.write --> java.lang.Integer cannot be cast to com.google.protobuf.GeneratedMessageV3
+java.lang.ClassCastException: java.lang.Integer cannot be cast to com.google.protobuf.GeneratedMessageV3
+	at org.tinygame.herostory.GameMsgEncoder.write(GameMsgEncoder.java:49)
+	at io.netty.channel.AbstractChannelHandlerContext.invokeWrite0(AbstractChannelHandlerContext.java:716)
+	at io.netty.channel.AbstractChannelHandlerContext.invokeWriteAndFlush(AbstractChannelHandlerContext.java:763)
+	at io.netty.channel.AbstractChannelHandlerContext.write(AbstractChannelHandlerContext.java:789)
+	at io.netty.channel.AbstractChannelHandlerContext.writeAndFlush(AbstractChannelHandlerContext.java:757)
+	at io.netty.channel.AbstractChannelHandlerContext.writeAndFlush(AbstractChannelHandlerContext.java:812)
+	at io.netty.channel.DefaultChannelPipeline.writeAndFlush(DefaultChannelPipeline.java:1037)
+	at io.netty.channel.AbstractChannel.writeAndFlush(AbstractChannel.java:293)
+	at io.netty.channel.group.DefaultChannelGroup.writeAndFlush(DefaultChannelGroup.java:419)
+	at io.netty.channel.group.DefaultChannelGroup.writeAndFlush(DefaultChannelGroup.java:398)
+	at io.netty.channel.group.DefaultChannelGroup.writeAndFlush(DefaultChannelGroup.java:299)
+	at org.tinygame.herostory.GameMsgHandler.channelRead0(GameMsgHandler.java:106)
+	at io.netty.channel.SimpleChannelInboundHandler.channelRead(SimpleChannelInboundHandler.java:99)
+	at io.netty.channel.AbstractChannelHandlerContext.invokeChannelRead(AbstractChannelHandlerContext.java:374)
+	at io.netty.channel.AbstractChannelHandlerContext.invokeChannelRead(AbstractChannelHandlerContext.java:360)
+	at io.netty.channel.AbstractChannelHandlerContext.fireChannelRead(AbstractChannelHandlerContext.java:352)
+	at org.tinygame.herostory.GameMsgDecoder.channelRead(GameMsgDecoder.java:55)
+	at io.netty.channel.AbstractChannelHandlerContext.invokeChannelRead(AbstractChannelHandlerContext.java:374)
+	at io.netty.channel.AbstractChannelHandlerContext.invokeChannelRead(AbstractChannelHandlerContext.java:360)
+	at io.netty.channel.AbstractChannelHandlerContext.fireChannelRead(AbstractChannelHandlerContext.java:352)
+	at io.netty.handler.codec.MessageToMessageDecoder.channelRead(MessageToMessageDecoder.java:102)
+	at io.netty.channel.AbstractChannelHandlerContext.invokeChannelRead(AbstractChannelHandlerContext.java:374)
+	at io.netty.channel.AbstractChannelHandlerContext.invokeChannelRead(AbstractChannelHandlerContext.java:360)
+	at io.netty.channel.AbstractChannelHandlerContext.fireChannelRead(AbstractChannelHandlerContext.java:352)
+	at io.netty.channel.ChannelInboundHandlerAdapter.channelRead(ChannelInboundHandlerAdapter.java:93)
+	at io.netty.handler.codec.http.websocketx.Utf8FrameValidator.channelRead(Utf8FrameValidator.java:77)
+	at io.netty.channel.AbstractChannelHandlerContext.invokeChannelRead(AbstractChannelHandlerContext.java:374)
+	at io.netty.channel.AbstractChannelHandlerContext.invokeChannelRead(AbstractChannelHandlerContext.java:360)
+	at io.netty.channel.AbstractChannelHandlerContext.fireChannelRead(AbstractChannelHandlerContext.java:352)
+	at io.netty.handler.codec.http.websocketx.WebSocketServerProtocolHandler$1.channelRead(WebSocketServerProtocolHandler.java:272)
+	at io.netty.channel.AbstractChannelHandlerContext.invokeChannelRead(AbstractChannelHandlerContext.java:374)
+	at io.netty.channel.AbstractChannelHandlerContext.invokeChannelRead(AbstractChannelHandlerContext.java:360)
+	at io.netty.channel.AbstractChannelHandlerContext.fireChannelRead(AbstractChannelHandlerContext.java:352)
+	at io.netty.handler.codec.ByteToMessageDecoder.fireChannelRead(ByteToMessageDecoder.java:326)
+	at io.netty.handler.codec.ByteToMessageDecoder.channelRead(ByteToMessageDecoder.java:300)
+	at io.netty.channel.AbstractChannelHandlerContext.invokeChannelRead(AbstractChannelHandlerContext.java:374)
+	at io.netty.channel.AbstractChannelHandlerContext.invokeChannelRead(AbstractChannelHandlerContext.java:360)
+	at io.netty.channel.AbstractChannelHandlerContext.fireChannelRead(AbstractChannelHandlerContext.java:352)
+	at io.netty.channel.DefaultChannelPipeline$HeadContext.channelRead(DefaultChannelPipeline.java:1422)
+	at io.netty.channel.AbstractChannelHandlerContext.invokeChannelRead(AbstractChannelHandlerContext.java:374)
+	at io.netty.channel.AbstractChannelHandlerContext.invokeChannelRead(AbstractChannelHandlerContext.java:360)
+	at io.netty.channel.DefaultChannelPipeline.fireChannelRead(DefaultChannelPipeline.java:931)
+	at io.netty.channel.nio.AbstractNioByteChannel$NioByteUnsafe.read(AbstractNioByteChannel.java:163)
+	at io.netty.channel.nio.NioEventLoop.processSelectedKey(NioEventLoop.java:700)
+	at io.netty.channel.nio.NioEventLoop.processSelectedKeysOptimized(NioEventLoop.java:635)
+	at io.netty.channel.nio.NioEventLoop.processSelectedKeys(NioEventLoop.java:552)
+	at io.netty.channel.nio.NioEventLoop.run(NioEventLoop.java:514)
+	at io.netty.util.concurrent.SingleThreadEventExecutor$6.run(SingleThreadEventExecutor.java:1050)
+	at io.netty.util.internal.ThreadExecutorMap$2.run(ThreadExecutorMap.java:74)
+	at io.netty.util.concurrent.FastThreadLocalRunnable.run(FastThreadLocalRunnable.java:30)
+	at java.lang.Thread.run(Thread.java:748)
+[00:06:45,937] [ERROR] GameMsgEncoder.write --> java.lang.Integer cannot be cast to com.google.protobuf.GeneratedMessageV3
+java.lang.ClassCastException: java.lang.Integer cannot be cast to com.google.protobuf.GeneratedMessageV3
+	at org.tinygame.herostory.GameMsgEncoder.write(GameMsgEncoder.java:49)
+	at io.netty.channel.AbstractChannelHandlerContext.invokeWrite0(AbstractChannelHandlerContext.java:716)
+	at io.netty.channel.AbstractChannelHandlerContext.invokeWrite(AbstractChannelHandlerContext.java:708)
+	at io.netty.channel.AbstractChannelHandlerContext.access$1700(AbstractChannelHandlerContext.java:56)
+	at io.netty.channel.AbstractChannelHandlerContext$AbstractWriteTask.write(AbstractChannelHandlerContext.java:1102)
+	at io.netty.channel.AbstractChannelHandlerContext$WriteAndFlushTask.write(AbstractChannelHandlerContext.java:1149)
+	at io.netty.channel.AbstractChannelHandlerContext$AbstractWriteTask.run(AbstractChannelHandlerContext.java:1073)
+	at io.netty.util.concurrent.AbstractEventExecutor.safeExecute(AbstractEventExecutor.java:163)
+	at io.netty.util.concurrent.SingleThreadEventExecutor.runAllTasks(SingleThreadEventExecutor.java:510)
+	at io.netty.channel.nio.NioEventLoop.run(NioEventLoop.java:518)
+	at io.netty.util.concurrent.SingleThreadEventExecutor$6.run(SingleThreadEventExecutor.java:1050)
+	at io.netty.util.internal.ThreadExecutorMap$2.run(ThreadExecutorMap.java:74)
+	at io.netty.util.concurrent.FastThreadLocalRunnable.run(FastThreadLocalRunnable.java:30)
+	at java.lang.Thread.run(Thread.java:748)
+[00:09:37,488] [INFO] ServerMain.main --> 服务器启动成功!
+[00:09:42,031] [INFO] GameMsgHandler.channelRead0 --> 收到客户端消息，msg = moveToPosX: -267.0651
+moveToPosY: -22.881536
+
+[00:09:51,536] [INFO] GameMsgHandler.channelRead0 --> 收到客户端消息，msg = userId: 2
+heroAvatar: "Hero_Shaman"
+
+[00:09:51,546] [INFO] GameMsgHandler.channelRead0 --> 收到客户端消息，msg = 
+[00:09:52,692] [INFO] GameMsgHandler.channelRead0 --> 收到客户端消息，msg = userId: 1
+heroAvatar: "Hero_Hammer"
+
+[00:09:52,695] [INFO] GameMsgHandler.channelRead0 --> 收到客户端消息，msg = 
+[00:09:53,120] [INFO] GameMsgHandler.channelRead0 --> 收到客户端消息，msg = moveToPosX: -179.63715
+moveToPosY: 69.327644
+
+[00:09:53,271] [INFO] GameMsgHandler.channelRead0 --> 收到客户端消息，msg = moveToPosX: -187.83351
+moveToPosY: 57.716114
+
+[00:10:04,100] [INFO] GameMsgHandler.channelRead0 --> 收到客户端消息，msg = userId: 3
+heroAvatar: "Hero_Skeleton"
+
+[00:10:04,101] [INFO] GameMsgHandler.channelRead0 --> 收到客户端消息，msg = 
+[00:10:05,350] [INFO] GameMsgHandler.channelRead0 --> 收到客户端消息，msg = moveToPosX: -303.26575
+moveToPosY: 197.05443
+
+[00:10:07,047] [INFO] GameMsgHandler.channelRead0 --> 收到客户端消息，msg = moveToPosX: 85.37887
+moveToPosY: 187.49199
+
+[00:10:07,591] [INFO] GameMsgHandler.channelRead0 --> 收到客户端消息，msg = moveToPosX: 181.68623
+moveToPosY: 171.09926
+
+[00:10:13,951] [INFO] GameMsgHandler.channelRead0 --> 收到客户端消息，msg = moveToPosX: -66.937035
+moveToPosY: -162.90288
+
+[00:10:14,298] [INFO] GameMsgHandler.channelRead0 --> 收到客户端消息，msg = moveToPosX: -53.276413
+moveToPosY: -186.80896
+
+[00:10:27,792] [INFO] GameMsgHandler.channelRead0 --> 收到客户端消息，msg = moveToPosX: -228.13234
+moveToPosY: 115.09071
+
+[00:11:36,863] [INFO] GameMsgHandler.channelRead0 --> 收到客户端消息，msg = userId: 2
+heroAvatar: "Hero_Shaman"
+
+[00:11:36,864] [INFO] GameMsgHandler.channelRead0 --> 收到客户端消息，msg = 
+[00:11:37,349] [INFO] GameMsgHandler.channelRead0 --> 收到客户端消息，msg = moveToPosX: -174.85593
+moveToPosY: -17.41729
+
+[00:11:37,571] [INFO] GameMsgHandler.channelRead0 --> 收到客户端消息，msg = moveToPosX: -177.58804
+moveToPosY: -17.41729
+
+[00:11:38,621] [INFO] GameMsgHandler.channelRead0 --> 收到客户端消息，msg = moveToPosX: -126.360725
+moveToPosY: 122.60406
+
+[00:19:53,103] [INFO] ServerMain.main --> 服务器启动成功!
+[00:20:16,114] [INFO] GameMsgHandler.channelRead0 --> 收到客户端消息，msg = UserEntryCmd
+[00:20:16,138] [INFO] GameMsgHandler.channelRead0 --> 收到客户端消息，msg = WhoElseIsHereCmd
+[00:20:17,329] [INFO] GameMsgHandler.channelRead0 --> 收到客户端消息，msg = UserMoveToCmd
+[00:20:17,778] [INFO] GameMsgHandler.channelRead0 --> 收到客户端消息，msg = UserMoveToCmd
+[00:20:17,963] [INFO] GameMsgHandler.channelRead0 --> 收到客户端消息，msg = UserMoveToCmd
+[00:20:18,131] [INFO] GameMsgHandler.channelRead0 --> 收到客户端消息，msg = UserMoveToCmd
+[00:20:20,619] [INFO] GameMsgHandler.channelRead0 --> 收到客户端消息，msg = UserEntryCmd
+[00:20:20,621] [INFO] GameMsgHandler.channelRead0 --> 收到客户端消息，msg = WhoElseIsHereCmd
+[00:20:21,121] [INFO] GameMsgHandler.channelRead0 --> 收到客户端消息，msg = UserMoveToCmd
+[00:20:21,296] [INFO] GameMsgHandler.channelRead0 --> 收到客户端消息，msg = UserMoveToCmd
+[00:20:21,470] [INFO] GameMsgHandler.channelRead0 --> 收到客户端消息，msg = UserMoveToCmd
+[00:20:21,623] [INFO] GameMsgHandler.channelRead0 --> 收到客户端消息，msg = UserMoveToCmd
+[00:20:21,766] [INFO] GameMsgHandler.channelRead0 --> 收到客户端消息，msg = UserMoveToCmd
+[00:20:21,931] [INFO] GameMsgHandler.channelRead0 --> 收到客户端消息，msg = UserMoveToCmd
+[00:20:22,100] [INFO] GameMsgHandler.channelRead0 --> 收到客户端消息，msg = UserMoveToCmd
+[00:20:24,849] [INFO] GameMsgHandler.channelRead0 --> 收到客户端消息，msg = UserEntryCmd
+[00:20:24,850] [INFO] GameMsgHandler.channelRead0 --> 收到客户端消息，msg = WhoElseIsHereCmd
+[00:20:26,591] [INFO] GameMsgHandler.channelRead0 --> 收到客户端消息，msg = UserEntryCmd
+[00:20:26,592] [INFO] GameMsgHandler.channelRead0 --> 收到客户端消息，msg = WhoElseIsHereCmd
+[00:20:27,424] [INFO] GameMsgHandler.channelRead0 --> 收到客户端消息，msg = UserMoveToCmd
+[00:20:27,565] [INFO] GameMsgHandler.channelRead0 --> 收到客户端消息，msg = UserMoveToCmd
+[00:20:27,723] [INFO] GameMsgHandler.channelRead0 --> 收到客户端消息，msg = UserMoveToCmd
+[00:20:28,482] [INFO] GameMsgHandler.channelRead0 --> 收到客户端消息，msg = UserMoveToCmd
+[00:20:28,659] [INFO] GameMsgHandler.channelRead0 --> 收到客户端消息，msg = UserMoveToCmd
+[00:20:28,814] [INFO] GameMsgHandler.channelRead0 --> 收到客户端消息，msg = UserMoveToCmd
+[00:20:28,975] [INFO] GameMsgHandler.channelRead0 --> 收到客户端消息，msg = UserMoveToCmd
+[00:20:29,147] [INFO] GameMsgHandler.channelRead0 --> 收到客户端消息，msg = UserMoveToCmd
+[00:20:29,294] [INFO] GameMsgHandler.channelRead0 --> 收到客户端消息，msg = UserMoveToCmd
+[00:20:29,446] [INFO] GameMsgHandler.channelRead0 --> 收到客户端消息，msg = UserMoveToCmd
+[00:20:29,604] [INFO] GameMsgHandler.channelRead0 --> 收到客户端消息，msg = UserMoveToCmd
